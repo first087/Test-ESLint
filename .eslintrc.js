@@ -1,3 +1,8 @@
 module.exports = {
-    "extends": "google"
+    "extends": "google",
+    "rules": {
+        "no-unused-vars": [
+            "warn"
+        ]
+    }
 };
