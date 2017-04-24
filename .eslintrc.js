@@ -3,5 +3,10 @@ module.exports = {
     "plugins": [
         "standard",
         "promise"
-    ]
+    ],
+    "rules": {
+        "no-unused-vars": [
+            "warn"
+        ]
+    }
 };
