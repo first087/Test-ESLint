@@ -1,25 +1,25 @@
 // From https://j11y.io/javascript/javascript-bad-practices/
 
-var Color = 'red';
-var SomeNumber = 234;
-var AnArray = [1,2,3];
-var Foo = { bar: 123 };
+let Color = 'red';
+let SomeNumber = 234;
+let AnArray = [1, 2, 3];
+let Foo = {bar: 123};
 // None of them should start with a capital letter!
 
-foo = 3; // NO!
-var foo = 3; // YES
+let foo = 3; // NO!
+foo = 3; // YES
 
-var someVar1 = 'a';
-var someVar2 = 'b';
-var someVar3 = 'c';
+let someVar1 = 'a';
+let someVar2 = 'b';
+let someVar3 = 'c';
 
 // Much easier:
-var someVar1 = 'a',
-    someVar2 = 'b',
-    someVar3 = 'c';
+someVar1 = 'a';
+someVar2 = 'b';
+someVar3 = 'c';
 
-1 == "1"; // true
-false == " nt "; // true
-[[],[]] == true; // true
+1 == '1'; // true
+false == ' nt '; // true
+[[], []] == true; // true
 
 // ... Confused?
